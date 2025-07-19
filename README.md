@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+**🧩 Maze Solver Visualizer**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An interactive pathfinding visualizer built with React, allowing users to place walls, set start & end points, and visualize how different algorithms find the shortest path in real-time.
 
-## Available Scripts
+🔗 https://maze-solver-visualizer-zeta.vercel.app/
+🔗 https://github.com/DhanayAg/maze-solver-visualizer
 
-In the project directory, you can run:
 
-### `npm start`
+**🚀 Features**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✅ Visualizes BFS, DFS, and A* pathfinding algorithms
+✅ Interactive grid customization (add/remove walls, change grid size)
+✅ Start and End point placement with instant reset
+✅ Real-time animated traversal of visited nodes & shortest path
+✅ Mobile-friendly and responsive design
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+**🛠️ Tech Stack**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Frontend: React (functional components & hooks)
+Styling: CSS (custom responsive design)
+Deployment: Vercel (auto updates with every GitHub push)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**📌 How to Use**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Set Start & End Points – Click on any two cells (first = start, second = end).
+    Add Walls – Click on cells to make them walls (toggle on/off).
+    Choose Algorithm – Click "Visualize BFS", "Visualize DFS", or "Visualize A*".
+    Clear Path – Instantly clears the path (stops animation).
+    Reset Grid – Resets everything, including walls and start/end points.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+**🏗️ Installation & Setup (For Developers)**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Clone the repo and run locally:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+git clone https://github.com/DhanayAg/maze-solver-visualizer.git
+cd maze-solver-visualizer
+npm install
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**🎯 Algorithms Implemented**
 
-## Learn More
+🔹 BFS (Breadth-First Search)
+    - Guarantees the shortest path in an unweighted grid.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🔹 DFS (Depth-First Search)
+    - Explores deeper paths first (not always the shortest path).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🔹 A* Search Algorithm
+    - Uses heuristics (Manhattan distance) to efficiently find the shortest path.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**📄 License**
 
-### Analyzing the Bundle Size
+This project is open-source and free to use for learning purposes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+**✨ Author**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+👤 Dhanay Agarwal
+📧 Email: 2022ume0201@iitjammu.ac.in
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**✅ Next Steps (Optional)**
 
-### Deployment
+    ⏩ Speed Control (Slow, Medium, Fast animation)
+    📥 Export/Import Maze Layouts
+    🔄 More Algorithms (Dijkstra, Bidirectional Search)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
